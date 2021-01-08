@@ -30,7 +30,7 @@ namespace APIRESTASPNET
         {
 
             services.AddControllers();
-            services.AddScoped<IPersonService,PersonServiceImplementation>();
+            services.AddScoped<PersonServiceImplementation>();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "APIRESTASPNET", Version = "v1" });

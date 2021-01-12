@@ -2,8 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using APIRESTASPNET.Business;
 using APIRESTASPNET.Services;
-using APIRESTASPNET.Services.Implementations;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -30,7 +30,13 @@ namespace APIRESTASPNET
         {
 
             services.AddControllers();
-            services.AddScoped<PersonServiceImplementation>();
+            services.AddScoped<PersonBusiness>();
+            services.AddScoped<PersonService>();
+            services.AddApiVersioning(config => {
+                config.DefaultApiVersion = new ApiVersion(1,0);
+                config.AssumeDefaultVersionWhenUnspecified = true;
+                config.ReportApiVersions = true;
+            });
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "APIRESTASPNET", Version = "v1" });

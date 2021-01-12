@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "nQElzOia2wdUiY6z4F2N8C1fYJqRJughqQ41cZsY8NXAj0e++67ywZs1q4Rz9G1rNOYsqaMX5a/oL1yGKUY/6g==",
+  "dgSpecHash": "V1jnM3UlVtsjbwQRW9oRpAZfnfglV1nKN/WfrpV4Xi/CKGL/ksjYOq3XUh1vWKv1l4K3UooYSfZxthuKMAYLBQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Guilherme\\Documents\\Projetos\\RestASP-NET5\\APIRESTASPNET\\APIRESTASPNET\\APIRESTASPNET.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Guilherme\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.0\\microsoft.aspnetcore.authentication.jwtbearer.5.0.0.nupkg.sha512",
+    "C:\\Users\\Guilherme\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.1\\microsoft.aspnetcore.authentication.jwtbearer.5.0.1.nupkg.sha512",
     "C:\\Users\\Guilherme\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\5.0.0\\microsoft.aspnetcore.authentication.openidconnect.5.0.0.nupkg.sha512",
+    "C:\\Users\\Guilherme\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\5.0.0-preview.2\\microsoft.aspnetcore.mvc.versioning.5.0.0-preview.2.nupkg.sha512",
     "C:\\Users\\Guilherme\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Guilherme\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
     "C:\\Users\\Guilherme\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.0.1\\microsoft.data.sqlclient.sni.runtime.2.0.1.nupkg.sha512",

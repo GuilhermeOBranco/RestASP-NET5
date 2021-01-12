@@ -38,7 +38,7 @@ namespace APIRESTASPNET.Services
             using(SqlConnection con = new SqlConnection(_connectionString))
             {
                 await con.OpenAsync();
-                
+
                 SqlCommand cmd = new SqlCommand(query, con);
                 cmd.Parameters.AddWithValue("@USERNAME", user.UserName);
                 cmd.Parameters.AddWithValue("@PASS", user.Password);
@@ -55,15 +55,15 @@ namespace APIRESTASPNET.Services
                         usuario.RefreshTokenExpiryTime = (DateTime) reader[5];
                     }
                 }
+                return usuario;
 
             }
-            return null;
         }
 
         public async Task<User> UpdateToken(User user)
         {
             string query = "";
-
+             throw new NotImplementedException();
         }
 
         private string ComputeHash(string input, SHA256CryptoServiceProvider algorithm)

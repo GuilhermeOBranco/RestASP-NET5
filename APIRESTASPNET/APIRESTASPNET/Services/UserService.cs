@@ -63,7 +63,7 @@ namespace APIRESTASPNET.Services
         public async Task<User> UpdateToken(User user)
         {
             string query = "";
-             throw new NotImplementedException();
+            throw new NotImplementedException();
         }
 
         private string ComputeHash(string input, SHA256CryptoServiceProvider algorithm)
